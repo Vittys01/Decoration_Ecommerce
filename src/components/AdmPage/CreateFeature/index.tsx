@@ -42,10 +42,7 @@ const CreateFeature = ({ onChange }: any) => {
               <Select
                 name="feature"
                 options={
-                  optionsFeature /* .filter(
-                    option =>
-                      !featureValue.characteristics.includes(option.value)
-                  ) */
+                  optionsFeature
                 }
                 placeholder="Seleccionar"
                 onChange={(e: any) => {

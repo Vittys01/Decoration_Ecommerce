@@ -3,7 +3,6 @@ import { Product } from '../../../types/product';
 import './index.css';
 
 const ProductDescription = ({
-  city,
   description,
   distance,
   characteristics
@@ -11,11 +10,6 @@ const ProductDescription = ({
   return (
     <div className="container">
       <div className="product-description-description">
-        <h3>
-          {distance && distance < 1000
-            ? `Alójate en el corazón de ${city?.name}`
-            : `Descubre ${city?.name} de una manera diferente`}
-        </h3>
         <p className="product-description-text">{description}</p>
       </div>
       {characteristics && (

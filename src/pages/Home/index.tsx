@@ -42,7 +42,7 @@ const HomePage = () => {
         <SearchBox onSearch={handleSearch} />
         <div className="home-categories-container">
           <div className="container">
-            <h2>Buscar por tipo de alojamiento</h2>
+            <h2>Buscar por tipo de decoracion</h2>
             <div className="home-categories-grid">
             <h1>CARDS</h1>
             </div>

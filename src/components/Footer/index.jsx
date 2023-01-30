@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <div className="footer-container">
       <div className="footer-content container">
-        <p>©2021 Digital Booking</p>
+        <p>©2021 Decoration Vittys :v</p>
         <div className="footer-content-social">
           <img src={FacebookLogo} alt="Go to Facebook" />
           <img src={LinkedinLogo} alt="Go to Linkedin" />
