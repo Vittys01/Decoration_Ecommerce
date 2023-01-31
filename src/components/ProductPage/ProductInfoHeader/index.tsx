@@ -4,7 +4,7 @@ import Score from '../../UI/Score';
 import { MdLocationOn as LocationIcon } from 'react-icons/md';
 import './index.css';
 
-const ProductInfoHeader = ({ city, distance }: Partial<Product>) => {
+const ProductInfoHeader = ({ distance }: Partial<Product>) => {
   const isMobile = useMediaQuery('(max-width: 576px)');
 
   return (
@@ -13,9 +13,6 @@ const ProductInfoHeader = ({ city, distance }: Partial<Product>) => {
         <div className="flex">
           <LocationIcon className="product-ubication-icon" />
           <div className="product-ubication-text">
-            <p>
-              {city?.name}, {city?.province.name}, {city?.province.country.name}
-            </p>
             {!isMobile && <p>A {distance}m del centro</p>}
           </div>
         </div>
